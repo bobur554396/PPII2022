@@ -1,0 +1,5 @@
+print('Hello kbtu!')
+print('Hello kbtu!')
+print('Hello kbtu!')
+print(2 + 5)
+print(2 * 10)
