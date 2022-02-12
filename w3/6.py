@@ -31,9 +31,14 @@ arr = list(filter(lambda x: x % 2 != 0, a))
 
 
 def multiplier(n):
+  # def inner(x):
+  #   return x * n
+  
   return lambda x: x * n
+  # return inner
 
 doubler = multiplier(2)
+
 # print(doubler(100))
 
 tripler = multiplier(3)
