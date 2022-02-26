@@ -1,0 +1,1 @@
+{"position": {"x": 100, "y": 200}, "full_name": "Hello world", "enemy": {"x": 200, "y": 300}}

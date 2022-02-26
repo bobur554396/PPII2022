@@ -1,0 +1,5 @@
+[
+  {"id": "123", "name": "KBTU", "location": "Tole bi 59"},
+  {"id": "222", "name": "KBTU 2", "location": "Tole bi 59"},
+  {"id": "333", "name": "KBTU 3", "location": "Tole bi 59"}
+]
