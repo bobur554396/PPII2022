@@ -4,7 +4,7 @@ import pygame
 pygame.init()
 
 # Creating main window (Surface)
-screen = pygame.display.set_mode((500, 500))
+screen = pygame.display.set_mode((500, 500))  # Surface
 running = True
 
 # RGB - Red Green Blue [0-255]
@@ -18,7 +18,7 @@ clock = pygame.time.Clock()
 # Frame per second
 FPS = 60
 
-image = pygame.image.load('img1.png')
+image = pygame.image.load('img1.png')  # Surface
 
 color = BLUE
 
@@ -46,6 +46,9 @@ while running:
         x -= 3
     if pressed[pygame.K_RIGHT]:
         x += 3
+
+    if x + 100 >= 500:
+        x = 0
 
     # Refresh the screen
     screen.fill(WHITE)
