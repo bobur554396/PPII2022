@@ -18,7 +18,8 @@ clock = pygame.time.Clock()
 game_over = False
 
 prev, cur = None, None
-screen.fill(BLACK)
+
+screen.fill(WHITE)
 
 while not game_over:
   for event in pygame.event.get():
@@ -29,10 +30,13 @@ while not game_over:
     if event.type == pygame.MOUSEMOTION:
       cur = pygame.mouse.get_pos()
       if prev:
-        pygame.draw.line(screen, RED, prev, cur, 1)
-        prev = cur
+        pass
+        # prev = cur
     if event.type == pygame.MOUSEBUTTONUP:
+      if prev:
+        pygame.draw.line(screen, RED, prev, cur, 1)
       prev = None
+
   
   pygame.display.flip()
 
