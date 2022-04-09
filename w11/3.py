@@ -1,5 +1,3 @@
-from multiprocessing.connection import wait
-from xxlimited import foo
 import pygame
 import random
 
